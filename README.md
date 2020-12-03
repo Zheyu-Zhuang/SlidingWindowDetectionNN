@@ -1,7 +1,7 @@
 # SlidingWindowDetectionNN
 ![image](./demo.png)
 ## Intro
-The neural network has receives an image and returns a coarse heat map indicating where the animals are.
+The neural network that receives an image and returns a coarse heat map indicating where the animals are.
 This NN converts a classification convolutional neural netowork that infers class lables from small image patches to a detection module using 'sliding window' technique. 
 The network is *fast to train*. Using the provided small dataset, the network is able to finish training under 10 mins with CPU.
 
